@@ -1,0 +1,75 @@
+body {
+  background-color: #fff;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  text-align: center;
+  background-color: #ffcbcf;
+  background-image: url(background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  max-width: 900px;
+  margin: 200px auto;
+}
+
+.counter {
+  background-image: url();
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 100%;
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+}
+
+#increment-btn {
+  background: #e97cb4b5;
+  color: rgba(255, 255, 255, 0.445);
+  transition: 200ms ease-in-out;
+}
+
+#increment-btn:hover {
+  background: #e97cb4;
+  color: rgba(255, 255, 255, 0.849);
+}
+
+#save-btn {
+  background: #5c91db96;
+  color: rgba(255, 255, 255, 0.445);
+  transition: 200ms ease-in-out;
+}
+
+#save-btn:hover {
+  background: #5c91db;
+  color: rgba(255, 255, 255, 0.849);
+}
+
+p {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.415);
+  text-shadow: 0px 5px 10px rgba(237, 43, 186, 0.862);
+}
